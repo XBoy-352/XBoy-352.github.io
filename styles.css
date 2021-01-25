@@ -1,0 +1,137 @@
+body{
+    margin : 0;
+    background : #28334AFF;
+}
+.container{
+    width : 85%;
+    margin : 0 auto;
+}
+header{
+    background : #F65058FF;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#para{
+    float : left;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px 0;
+    font-family: "Dancing Script", sans-serif;
+    font-weight: bolder;
+}
+nav{
+    float : right;
+    margin-right: 20px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 500;
+}
+nav li{
+    display: inline-block;
+    margin-left: 120px;
+    padding-top: 20px;
+    font-size: 22px;
+    position: relative;
+}
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #000;
+    transition: all 0.5s ease-out;
+}
+.selected a{
+    color: #000;
+}
+
+.heading{
+    text-align: center;
+    color: #FBDE44FF;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-family: "Gorditas", sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.head{
+    text-align: center;
+    color: #FBDE44FF;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: "Gorditas", sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+.data{
+    color: #FBDE44FF;
+    margin: 0 auto;
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.data li{
+    padding-bottom: 15px;
+}
+.data2{
+    padding: 10px 200px 0px 0px;
+}
+td{
+    text-align: left;
+}
+#hobby{
+    list-style-type: none;
+    text-align: center;
+    padding-right: 40px;
+}
+.myimg{
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+.icons{
+    text-align: center;
+    padding-top: 25px;
+}
+.icons a{
+    color:azure;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.icons a:hover{
+    color: #FBDE44FF;
+    transition: all 0.5s ease-out;
+}
+.about{
+    color: #FBDE44FF;
+    margin: 0 auto;
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.about p{
+    padding-bottom: 100px;
+}
